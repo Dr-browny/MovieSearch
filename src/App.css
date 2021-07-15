@@ -1,0 +1,8 @@
+.section-app{
+    min-height: 100vh;
+}
+
+.header-wrapper{
+    min-height: 15vh;
+    background-color: rgb(65, 140, 253);
+}
