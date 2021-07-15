@@ -23,7 +23,7 @@ function App() {
   const [movieTitle, setMovieTitle] = useState('')
   
   const fetchApi = async (movieTitle) =>{
-    const url = `http://www.omdbapi.com/?apikey=f29e7458&s=${movieTitle}&t=${movieTitle}`
+    const url = `https://www.omdbapi.com/?apikey=f29e7458&s=${movieTitle}&t=${movieTitle}`
   
     const response = await fetch(url)
     const data = await response.json()
